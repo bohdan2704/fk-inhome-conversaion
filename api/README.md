@@ -33,5 +33,8 @@ Local source download entrypoint:
 
 ```bash
 python3 download_sources.py
-python3 download_sources.py --source-url https://example.com/rozetka.xml --supplemental-source-url https://example.com/prom.xml
 ```
+
+`download_sources.py` is a no-args local helper. Edit the constants in
+[download_sources.py](/Users/Shared/Offline/Python/convert-api/download_sources.py#L1)
+if you want to change the URLs, timeout, or snapshot destinations for local runs.
