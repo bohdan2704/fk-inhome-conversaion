@@ -22,6 +22,7 @@ from .shared import (
     normalize_description,
     normalize_title,
     parse_source_yml,
+    resolve_offer_barcode,
     write_xml_with_cdata,
 )
 
@@ -76,13 +77,13 @@ def generate_content_xml(
     missing_required: list[str] = []
     exported_offers = 0
     offers_with_images = 0
+    skipped_without_barcode = 0
 
     for source_offer in offers:
         if not source_offer.available:
             continue
 
         override = overrides.get(source_offer.offer_id, ContentOverride())
-        offer_node = ET.SubElement(offers_node, "offer")
         supplemental_offer_by_id = supplemental_by_id.get(source_offer.offer_id)
         supplemental_offer = supplemental_offer_by_id
         if supplemental_offer is None and source_offer.vendor_code:
@@ -98,15 +99,16 @@ def generate_content_xml(
             or extract_brand(source_offer.description_html)
             or inferred_brands.get(source_offer.offer_id)
         )
-        barcode = (
-            override.barcode
-            or source_offer.barcode
-            or (
-                supplemental_offer_by_id.barcode
-                if supplemental_offer_by_id is not None
-                else None
-            )
+        barcode = resolve_offer_barcode(
+            source_offer,
+            override_barcode=override.barcode,
+            supplemental_offer_by_id=supplemental_offer_by_id,
         )
+        if not barcode:
+            skipped_without_barcode += 1
+            continue
+
+        offer_node = ET.SubElement(offers_node, "offer")
         category = override.category or source_offer.category_name
         category_id = override.category_id or source_offer.category_id
         title = normalize_title(source_offer.title)
@@ -201,10 +203,11 @@ def generate_content_xml(
         raise ValueError(f"Missing partner-required content fields:\n{formatted}")
 
     LOGGER.info(
-        "Generated content XML output=%s offers=%s offers_with_images=%s missing_required=%s duration=%s",
+        "Generated content XML output=%s offers=%s offers_with_images=%s skipped_without_barcode=%s missing_required=%s duration=%s",
         output_path,
         exported_offers,
         offers_with_images,
+        skipped_without_barcode,
         len(missing_required),
         format_duration(perf_counter() - started_at),
     )

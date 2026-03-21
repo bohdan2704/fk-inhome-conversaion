@@ -95,6 +95,7 @@ class FeedHTTPServer(ThreadingHTTPServer):
             generate_propositions_xml(
                 source_path=source_path,
                 output_path=output_path,
+                supplemental_source_path=supplemental_path,
                 strict=self.strict,
             )
             payload = output_path.read_bytes()

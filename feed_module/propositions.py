@@ -8,8 +8,10 @@ import xml.etree.ElementTree as ET
 from logger import format_duration, get_logger
 from .shared import (
     PropositionOverride,
+    SourceOffer,
     add_text_node,
     parse_source_yml,
+    resolve_offer_barcode,
     stringify_bool,
     stringify_number,
     write_xml_with_cdata,
@@ -24,6 +26,7 @@ def generate_propositions_xml(
     output_path: str | Path,
     overrides: Mapping[str, PropositionOverride] | None = None,
     *,
+    supplemental_source_path: str | Path | None = None,
     strict: bool = False,
 ) -> Path:
     """
@@ -35,20 +38,37 @@ def generate_propositions_xml(
     """
     started_at = perf_counter()
     LOGGER.info(
-        "Generating propositions XML source=%s output=%s strict=%s",
+        "Generating propositions XML source=%s output=%s supplemental=%s strict=%s",
         source_path,
         output_path,
+        supplemental_source_path,
         strict,
     )
     overrides = overrides or {}
     offers = parse_source_yml(source_path)
+    supplemental_by_id: dict[str, SourceOffer] = {}
+    if supplemental_source_path:
+        supplemental_offers = parse_source_yml(supplemental_source_path)
+        supplemental_by_id = {
+            offer.offer_id: offer for offer in supplemental_offers if offer.offer_id
+        }
     missing_required: list[str] = []
     root = ET.Element("OffersFeed")
     data_node = ET.SubElement(root, "data")
     total = 0
     offers_with_old_price = 0
+    skipped_without_barcode = 0
 
     for source_offer in offers:
+        supplemental_offer_by_id = supplemental_by_id.get(source_offer.offer_id)
+        barcode = resolve_offer_barcode(
+            source_offer,
+            supplemental_offer_by_id=supplemental_offer_by_id,
+        )
+        if not barcode:
+            skipped_without_barcode += 1
+            continue
+
         override = overrides.get(source_offer.offer_id, PropositionOverride())
         code = override.code or source_offer.offer_id
         price = override.price if override.price is not None else source_offer.price
@@ -143,10 +163,11 @@ def generate_propositions_xml(
         raise ValueError(f"Missing partner-required proposition fields:\n{formatted}")
 
     LOGGER.info(
-        "Generated propositions XML output=%s offers=%s offers_with_old_price=%s missing_required=%s duration=%s",
+        "Generated propositions XML output=%s offers=%s offers_with_old_price=%s skipped_without_barcode=%s missing_required=%s duration=%s",
         output_path,
         total,
         offers_with_old_price,
+        skipped_without_barcode,
         len(missing_required),
         format_duration(perf_counter() - started_at),
     )

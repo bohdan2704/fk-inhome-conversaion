@@ -710,6 +710,21 @@ def extract_source_barcode(
     return find_param_value(params, BARCODE_PARAM_NAMES)
 
 
+def resolve_offer_barcode(
+    source_offer: SourceOffer,
+    *,
+    override_barcode: str | None = None,
+    supplemental_offer_by_id: SourceOffer | None = None,
+) -> str | None:
+    if override_barcode:
+        return override_barcode
+    if source_offer.barcode:
+        return source_offer.barcode
+    if supplemental_offer_by_id and supplemental_offer_by_id.barcode:
+        return supplemental_offer_by_id.barcode
+    return None
+
+
 def extract_source_measure(
     offer_node: ET.Element,
     primary_tag: str,
@@ -820,6 +835,7 @@ __all__ = [
     "normalize_description",
     "normalize_title",
     "parse_source_yml",
+    "resolve_offer_barcode",
     "stringify_bool",
     "stringify_number",
     "write_xml_with_cdata",

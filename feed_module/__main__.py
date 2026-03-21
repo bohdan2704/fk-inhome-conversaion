@@ -103,6 +103,9 @@ def main() -> int:
     generate_propositions_xml(
         source_path=args.source,
         output_path=propositions_path,
+        supplemental_source_path=(
+            args.supplemental_source if args.supplemental_source.exists() else None
+        ),
         strict=args.strict,
     )
 
