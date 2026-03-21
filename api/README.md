@@ -18,6 +18,7 @@ Default behavior:
 - regenerates the XML before each response
 - uses `feed_module/xml_example/fk-inhome.com.ua.xml` as the base source
 - uses `feed_module/xml_example/fk-inhome.com.ua=2.xml` as the supplemental image source
+- writes logs to `logs/convert-api-YYYY-MM-DD.log`
 
 Useful options:
 
