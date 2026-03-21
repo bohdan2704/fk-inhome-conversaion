@@ -1,20 +1,23 @@
 from __future__ import annotations
 
 import argparse
+import os
 from pathlib import Path
+from time import perf_counter
 
 from feed_module.content import generate_content_xml
-from feed_module.propositions import generate_propositions_xml
-
-
-MODULE_DIR = Path(__file__).resolve().parent
-DEFAULT_SOURCE = MODULE_DIR / "xml_example" / "fk-inhome.com.ua.xml"
-DEFAULT_SUPPLEMENTAL_SOURCE = (
-    MODULE_DIR.parent / "feed_module_prom" / "xml_example" / "fk-inhome.com.ua=2.xml"
+from feed_module.paths import (
+    DEFAULT_CONTENT_NAME,
+    DEFAULT_OUTPUT_DIR,
+    DEFAULT_PROPOSITIONS_NAME,
+    DEFAULT_SOURCE,
+    DEFAULT_SUPPLEMENTAL_SOURCE,
 )
-DEFAULT_OUTPUT_DIR = MODULE_DIR / "generated"
-DEFAULT_CONTENT_NAME = "content_feed.xml"
-DEFAULT_PROPOSITIONS_NAME = "propositions_feed.xml"
+from feed_module.propositions import generate_propositions_xml
+from logger import DEFAULT_LOG_LEVEL, configure_logging, format_duration, get_logger
+
+
+LOGGER = get_logger(__name__)
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -60,16 +63,34 @@ def build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Fail if required partner fields are missing.",
     )
+    parser.add_argument(
+        "--log-level",
+        default=(
+            os.environ.get("FEED_LOG_LEVEL")
+            or os.environ.get("LOG_LEVEL")
+            or DEFAULT_LOG_LEVEL
+        ),
+        help="Logging level. Default: INFO",
+    )
     return parser
 
 
 def main() -> int:
     args = build_parser().parse_args()
+    configure_logging(args.log_level)
+    started_at = perf_counter()
     output_dir = args.output_dir
     output_dir.mkdir(parents=True, exist_ok=True)
 
     content_path = output_dir / args.content_name
     propositions_path = output_dir / args.propositions_name
+    LOGGER.info(
+        "Generating feeds source=%s supplemental=%s output_dir=%s strict=%s",
+        args.source,
+        args.supplemental_source,
+        output_dir,
+        args.strict,
+    )
 
     generate_content_xml(
         source_path=args.source,
@@ -85,6 +106,12 @@ def main() -> int:
         strict=args.strict,
     )
 
+    LOGGER.info(
+        "Generated feeds content=%s propositions=%s duration=%s",
+        content_path,
+        propositions_path,
+        format_duration(perf_counter() - started_at),
+    )
     print(content_path)
     print(propositions_path)
     return 0

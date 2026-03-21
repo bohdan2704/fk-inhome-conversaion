@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 from pathlib import Path
+from time import perf_counter
 from typing import Mapping
 import xml.etree.ElementTree as ET
 
+from logger import format_duration, get_logger
 from .shared import (
     PropositionOverride,
     add_text_node,
@@ -12,6 +14,9 @@ from .shared import (
     stringify_number,
     write_xml_with_cdata,
 )
+
+
+LOGGER = get_logger(__name__)
 
 
 def generate_propositions_xml(
@@ -28,12 +33,20 @@ def generate_propositions_xml(
     function maps the same field names into XML:
     <OffersFeed><total>...<data><offer>...</offer></data></OffersFeed>
     """
+    started_at = perf_counter()
+    LOGGER.info(
+        "Generating propositions XML source=%s output=%s strict=%s",
+        source_path,
+        output_path,
+        strict,
+    )
     overrides = overrides or {}
     offers = parse_source_yml(source_path)
     missing_required: list[str] = []
     root = ET.Element("OffersFeed")
     data_node = ET.SubElement(root, "data")
     total = 0
+    offers_with_old_price = 0
 
     for source_offer in offers:
         override = overrides.get(source_offer.offer_id, PropositionOverride())
@@ -52,6 +65,8 @@ def generate_propositions_xml(
         add_text_node(offer_node, "code", code)
         add_text_node(offer_node, "price", stringify_number(price))
         add_text_node(offer_node, "old_price", stringify_number(old_price))
+        if old_price is not None:
+            offers_with_old_price += 1
         add_text_node(offer_node, "availability", stringify_bool(availability))
         add_text_node(offer_node, "warranty_type", override.warranty_type)
         add_text_node(
@@ -118,8 +133,23 @@ def generate_propositions_xml(
     write_xml_with_cdata(root, output_path, cdata_tags=set())
 
     if strict and missing_required:
+        LOGGER.error(
+            "Propositions XML validation failed output=%s missing_required=%s duration=%s",
+            output_path,
+            len(missing_required),
+            format_duration(perf_counter() - started_at),
+        )
         formatted = "\n".join(missing_required)
         raise ValueError(f"Missing partner-required proposition fields:\n{formatted}")
+
+    LOGGER.info(
+        "Generated propositions XML output=%s offers=%s offers_with_old_price=%s missing_required=%s duration=%s",
+        output_path,
+        total,
+        offers_with_old_price,
+        len(missing_required),
+        format_duration(perf_counter() - started_at),
+    )
 
     return Path(output_path)
 

@@ -5,10 +5,13 @@ from dataclasses import dataclass, field
 from html import escape, unescape
 from html.parser import HTMLParser
 from pathlib import Path
+from time import perf_counter
 from typing import Any, Iterable
 import re
 import xml.dom.minidom as minidom
 import xml.etree.ElementTree as ET
+
+from logger import format_duration, get_logger
 
 
 NON_DIGIT_RE = re.compile(r"\D+")
@@ -59,6 +62,9 @@ DEFAULT_DELIVERY_METHODS = [
     {"method": "nova-post:postomat", "price": 0},
     {"method": "courier:nova-post", "price": 0},
 ]
+
+
+LOGGER = get_logger(__name__)
 
 
 @dataclass(slots=True)
@@ -196,7 +202,9 @@ class DescriptionSanitizer(HTMLParser):
 
 def parse_source_yml(source_path: str | Path) -> list[SourceOffer]:
     """Read the source YML feed and return normalized offers."""
+    started_at = perf_counter()
     source_path = Path(source_path)
+    LOGGER.info("Parsing source feed path=%s", source_path)
     tree = ET.parse(source_path)
     root = tree.getroot()
     shop = root.find("shop")
@@ -210,6 +218,8 @@ def parse_source_yml(source_path: str | Path) -> list[SourceOffer]:
             categories[category_id] = clean_text(category_node.text)
 
     offers: list[SourceOffer] = []
+    offers_with_images = 0
+    available_offers = 0
     for offer_node in shop.findall("./offers/offer"):
         quantity = parse_int(
             offer_node.findtext("quantity_in_stock")
@@ -270,7 +280,20 @@ def parse_source_yml(source_path: str | Path) -> list[SourceOffer]:
                 ),
             )
         )
+        if offers[-1].images:
+            offers_with_images += 1
+        if offers[-1].available:
+            available_offers += 1
 
+    LOGGER.info(
+        "Parsed source feed path=%s categories=%s offers=%s available_offers=%s offers_with_images=%s duration=%s",
+        source_path,
+        len(categories),
+        len(offers),
+        available_offers,
+        offers_with_images,
+        format_duration(perf_counter() - started_at),
+    )
     return offers
 
 

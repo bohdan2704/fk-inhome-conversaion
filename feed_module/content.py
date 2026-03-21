@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 from pathlib import Path
+from time import perf_counter
 from typing import Mapping
 import xml.etree.ElementTree as ET
 
+from logger import format_duration, get_logger
 from .shared import (
     ContentOverride,
     add_text_node,
@@ -23,6 +25,9 @@ from .shared import (
 )
 
 
+LOGGER = get_logger(__name__)
+
+
 def generate_content_xml(
     source_path: str | Path,
     output_path: str | Path,
@@ -40,6 +45,14 @@ def generate_content_xml(
     vendor-code fallback for safety. Pass `overrides` keyed by source offer id for any
     remaining partner-required fields.
     """
+    started_at = perf_counter()
+    LOGGER.info(
+        "Generating content XML source=%s output=%s supplemental=%s strict=%s",
+        source_path,
+        output_path,
+        supplemental_source_path,
+        strict,
+    )
     overrides = overrides or {}
     offers = parse_source_yml(source_path)
     inferred_brands = build_inferred_brand_lookup(offers)
@@ -59,6 +72,8 @@ def generate_content_xml(
     root = ET.Element("Market")
     offers_node = ET.SubElement(root, "offers")
     missing_required: list[str] = []
+    exported_offers = 0
+    offers_with_images = 0
 
     for source_offer in offers:
         if not source_offer.available:
@@ -132,6 +147,7 @@ def generate_content_xml(
             description_node.text = description_html
 
         if images:
+            offers_with_images += 1
             image_link_node = ET.SubElement(offer_node, "image_link")
             for image_url in images:
                 add_text_node(image_link_node, "picture", image_url)
@@ -159,12 +175,28 @@ def generate_content_xml(
             width_cm=width_cm,
             length_cm=length_cm,
         )
+        exported_offers += 1
 
     write_xml_with_cdata(root, output_path, cdata_tags={"description"})
 
     if strict and missing_required:
+        LOGGER.error(
+            "Content XML validation failed output=%s missing_required=%s duration=%s",
+            output_path,
+            len(missing_required),
+            format_duration(perf_counter() - started_at),
+        )
         formatted = "\n".join(missing_required)
         raise ValueError(f"Missing partner-required content fields:\n{formatted}")
+
+    LOGGER.info(
+        "Generated content XML output=%s offers=%s offers_with_images=%s missing_required=%s duration=%s",
+        output_path,
+        exported_offers,
+        offers_with_images,
+        len(missing_required),
+        format_duration(perf_counter() - started_at),
+    )
 
     return Path(output_path)
 
