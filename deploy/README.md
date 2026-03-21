@@ -90,11 +90,19 @@ It is copied from:
 deploy/env/convert-api.env.example
 ```
 
-Because the API runs inside Docker, paths in that env file must be container paths, not VPS host paths. The correct source paths are:
+Before generating feeds, the API downloads the source XML files from the configured URLs and stores them as:
 
 ```text
-FEED_SOURCE_PATH=/app/feed_module/xml_example/fk-inhome.com.ua.xml
-FEED_SUPPLEMENTAL_SOURCE_PATH=/app/feed_module/xml_example/fk-inhome.com.ua=2.xml
+/srv/convert-api/shared/downloaded/fk-inhome.com.ua.rozetka.xml
+/srv/convert-api/shared/downloaded/fk-inhome.com.ua.prom.xml
+```
+
+The active config values are now URL-based:
+
+```text
+FEED_SOURCE_URL=https://fk-inhome.com.ua/productcatalog/rozetka/?uid=...
+FEED_SUPPLEMENTAL_SOURCE_URL=https://fk-inhome.com.ua/productcatalog/prom/?uid=...
+FEED_DOWNLOAD_TIMEOUT=60
 ```
 
 The Docker stack now includes Caddy for automatic HTTPS with:
@@ -104,7 +112,7 @@ https://fk-inhome.space
 https://www.fk-inhome.space
 ```
 
-If you want to change the port or source feed paths later, edit:
+If you want to change the port or source URLs later, edit:
 
 ```text
 /srv/convert-api/shared/convert-api.env
@@ -132,6 +140,7 @@ You can still test the backend locally on the VPS:
 ```bash
 curl http://127.0.0.1:8000/api/content-feed.xml | head
 curl http://127.0.0.1:8000/api/propositions-feed.xml | head
+ls -lh /srv/convert-api/shared/downloaded
 ```
 
 If the certificate is still being issued, watch:

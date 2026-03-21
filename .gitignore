@@ -9,6 +9,7 @@ __pycache__/
 *.psd
 .git/
 logs/
+feed_module/downloaded/
 INP/
 frames/
 *.pdf/

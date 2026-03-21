@@ -23,24 +23,33 @@ def create_server(
     host: str,
     port: int,
     source_path: str | Path,
+    source_url: str | None,
     supplemental_source_path: str | Path | None,
+    supplemental_source_url: str | None,
     output_dir: str | Path,
+    download_timeout: int,
     strict: bool = False,
 ) -> FeedHTTPServer:
     LOGGER.info(
-        "Creating API server host=%s port=%s source=%s supplemental=%s output_dir=%s strict=%s",
+        "Creating API server host=%s port=%s source=%s source_url=%s supplemental=%s supplemental_url=%s output_dir=%s download_timeout=%s strict=%s",
         host,
         port,
         source_path,
+        bool(source_url),
         supplemental_source_path,
+        bool(supplemental_source_url),
         output_dir,
+        download_timeout,
         strict,
     )
     return FeedHTTPServer(
         (host, port),
         source_path=source_path,
+        source_url=source_url,
         supplemental_source_path=supplemental_source_path,
+        supplemental_source_url=supplemental_source_url,
         output_dir=output_dir,
+        download_timeout=download_timeout,
         strict=strict,
     )
 
@@ -53,10 +62,11 @@ def run(argv: list[str] | None = None) -> int:
         host=args.host,
         port=args.port,
         source_path=args.source,
-        supplemental_source_path=(
-            args.supplemental_source if args.supplemental_source.exists() else None
-        ),
+        source_url=args.source_url,
+        supplemental_source_path=args.supplemental_source,
+        supplemental_source_url=args.supplemental_source_url,
         output_dir=args.output_dir,
+        download_timeout=args.download_timeout,
         strict=args.strict,
     )
     LOGGER.info(

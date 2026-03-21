@@ -5,13 +5,14 @@ import os
 from pathlib import Path
 
 from feed_module.paths import (
+    DEFAULT_DOWNLOADED_SOURCE,
+    DEFAULT_DOWNLOADED_SUPPLEMENTAL_SOURCE,
     DEFAULT_OUTPUT_DIR,
-    DEFAULT_SOURCE,
-    DEFAULT_SUPPLEMENTAL_SOURCE,
 )
 from logger import DEFAULT_LOG_LEVEL
 
 from .constants import DEFAULT_HOST, DEFAULT_PORT
+from .sources import DEFAULT_DOWNLOAD_TIMEOUT
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -32,22 +33,38 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument(
         "--source",
         type=Path,
-        default=Path(os.environ.get("FEED_SOURCE_PATH", DEFAULT_SOURCE)),
-        help=f"Path to the source YML feed. Default: {DEFAULT_SOURCE}",
+        default=DEFAULT_DOWNLOADED_SOURCE,
+        help=(
+            "Path where the downloaded Rozetka XML feed is stored before generation. "
+            f"Default: {DEFAULT_DOWNLOADED_SOURCE}"
+        ),
     )
     parser.add_argument(
         "--supplemental-source",
         type=Path,
-        default=Path(
-            os.environ.get(
-                "FEED_SUPPLEMENTAL_SOURCE_PATH",
-                DEFAULT_SUPPLEMENTAL_SOURCE,
-            )
-        ),
+        default=DEFAULT_DOWNLOADED_SUPPLEMENTAL_SOURCE,
         help=(
-            "Optional supplemental XML feed used to enrich content output. "
-            f"Default: {DEFAULT_SUPPLEMENTAL_SOURCE}"
+            "Path where the downloaded Prom XML feed is stored before generation. "
+            f"Default: {DEFAULT_DOWNLOADED_SUPPLEMENTAL_SOURCE}"
         ),
+    )
+    parser.add_argument(
+        "--source-url",
+        default=os.environ.get("FEED_SOURCE_URL"),
+        help="Rozetka XML source URL. Environment: FEED_SOURCE_URL",
+    )
+    parser.add_argument(
+        "--supplemental-source-url",
+        default=os.environ.get("FEED_SUPPLEMENTAL_SOURCE_URL"),
+        help="Prom XML source URL. Environment: FEED_SUPPLEMENTAL_SOURCE_URL",
+    )
+    parser.add_argument(
+        "--download-timeout",
+        type=int,
+        default=int(
+            os.environ.get("FEED_DOWNLOAD_TIMEOUT", str(DEFAULT_DOWNLOAD_TIMEOUT))
+        ),
+        help=f"Timeout in seconds for source XML downloads. Default: {DEFAULT_DOWNLOAD_TIMEOUT}",
     )
     parser.add_argument(
         "--output-dir",

@@ -12,6 +12,7 @@ services:
     volumes:
       - ${APP_LOGS_DIR:-/srv/convert-api/shared/logs}:/app/logs
       - ${APP_GENERATED_DIR:-/srv/convert-api/shared/generated}:/app/feed_module/generated
+      - ${APP_DOWNLOAD_DIR:-/srv/convert-api/shared/downloaded}:/app/feed_module/downloaded
     networks:
       - app-network
 

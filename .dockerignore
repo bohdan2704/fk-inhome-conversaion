@@ -7,3 +7,4 @@ __pycache__
 *.pyc
 logs
 feed_module/generated
+feed_module/downloaded
