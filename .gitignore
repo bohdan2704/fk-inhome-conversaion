@@ -1,0 +1,14 @@
+output/
+.idea/
+__pycache__/
+.pytest_cache/
+.pyc
+.venv/
+.venv312/
+*.env
+*.psd
+.git/
+logs/
+INP/
+frames/
+*.pdf/
