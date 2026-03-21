@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from datetime import datetime, timezone
 from pathlib import Path
 from shutil import copyfileobj
 from time import perf_counter
@@ -20,7 +21,8 @@ def download_xml(
     destination: str | Path,
     timeout: int = DEFAULT_DOWNLOAD_TIMEOUT,
 ) -> Path:
-    destination_path = Path(destination)
+    base_destination = Path(destination)
+    destination_path = build_timestamped_destination(base_destination)
     destination_path.parent.mkdir(parents=True, exist_ok=True)
     temporary_path = destination_path.with_suffix(destination_path.suffix + ".tmp")
     started_at = perf_counter()
@@ -60,6 +62,14 @@ def download_xml(
     return destination_path
 
 
+def build_timestamped_destination(destination: str | Path) -> Path:
+    destination_path = Path(destination)
+    timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%S%fZ")
+    suffix = "".join(destination_path.suffixes) or ".xml"
+    stem = destination_path.name[: -len(suffix)] if suffix else destination_path.name
+    return destination_path.with_name(f"{stem}.{timestamp}{suffix}")
+
+
 def sanitize_url_for_log(url: str) -> str:
     parts = urlsplit(url)
     return urlunsplit((parts.scheme, parts.netloc, parts.path, "", ""))
@@ -67,6 +77,7 @@ def sanitize_url_for_log(url: str) -> str:
 
 __all__ = [
     "DEFAULT_DOWNLOAD_TIMEOUT",
+    "build_timestamped_destination",
     "download_xml",
     "sanitize_url_for_log",
 ]

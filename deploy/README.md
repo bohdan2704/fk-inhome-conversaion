@@ -93,8 +93,8 @@ deploy/env/convert-api.env.example
 Before generating feeds, the API downloads the source XML files from the configured URLs and stores them as:
 
 ```text
-/srv/convert-api/shared/downloaded/fk-inhome.com.ua.rozetka.xml
-/srv/convert-api/shared/downloaded/fk-inhome.com.ua.prom.xml
+/srv/convert-api/shared/downloaded/fk-inhome.com.ua.rozetka.YYYYMMDDTHHMMSSffffffZ.xml
+/srv/convert-api/shared/downloaded/fk-inhome.com.ua.prom.YYYYMMDDTHHMMSSffffffZ.xml
 ```
 
 The active config values are now URL-based:

@@ -9,9 +9,9 @@ from feed_module.content import generate_content_xml
 from feed_module.paths import DEFAULT_CONTENT_NAME, DEFAULT_PROPOSITIONS_NAME
 from feed_module.propositions import generate_propositions_xml
 from logger import format_duration, get_logger
+from source_downloader import DEFAULT_DOWNLOAD_TIMEOUT, download_xml
 
 from .handlers import FeedRequestHandler
-from .sources import DEFAULT_DOWNLOAD_TIMEOUT, download_xml
 
 
 LOGGER = get_logger(__name__)
@@ -108,13 +108,15 @@ class FeedHTTPServer(ThreadingHTTPServer):
 
     def _refresh_source_files(self) -> tuple[Path, Path | None]:
         if self.source_url:
-            download_xml(
+            source_path = download_xml(
                 url=self.source_url,
                 destination=self.source_path,
                 timeout=self.download_timeout,
             )
         elif not self.source_path.exists():
             raise FileNotFoundError(self.source_path)
+        else:
+            source_path = self.source_path
 
         supplemental_path = self.supplemental_source_path
         if self.supplemental_source_url:
@@ -122,7 +124,7 @@ class FeedHTTPServer(ThreadingHTTPServer):
                 raise ValueError(
                     "supplemental_source_path is required when supplemental_source_url is set"
                 )
-            download_xml(
+            supplemental_path = download_xml(
                 url=self.supplemental_source_url,
                 destination=supplemental_path,
                 timeout=self.download_timeout,
@@ -130,7 +132,7 @@ class FeedHTTPServer(ThreadingHTTPServer):
         elif supplemental_path is not None and not supplemental_path.exists():
             supplemental_path = None
 
-        return self.source_path, supplemental_path
+        return source_path, supplemental_path
 
 
 __all__ = ["FeedHTTPServer"]
