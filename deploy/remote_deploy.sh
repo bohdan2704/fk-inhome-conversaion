@@ -25,6 +25,11 @@ if [[ ! -f "$APP_ENV_FILE" ]]; then
   echo "Created default env file at $APP_ENV_FILE" >&2
 fi
 
+sed -i \
+  -e 's|^FEED_SOURCE_PATH=/srv/convert-api/app/feed_module/xml_example/fk-inhome.com.ua.xml$|FEED_SOURCE_PATH=/app/feed_module/xml_example/fk-inhome.com.ua.xml|' \
+  -e 's|^FEED_SUPPLEMENTAL_SOURCE_PATH=/srv/convert-api/app/feed_module/xml_example/fk-inhome.com.ua=2.xml$|FEED_SUPPLEMENTAL_SOURCE_PATH=/app/feed_module/xml_example/fk-inhome.com.ua=2.xml|' \
+  "$APP_ENV_FILE"
+
 python3 -m py_compile logger.py main.py api/*.py feed_module/*.py
 
 export APP_ENV_FILE

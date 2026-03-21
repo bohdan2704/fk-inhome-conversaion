@@ -69,6 +69,13 @@ It is copied from:
 deploy/env/convert-api.env.example
 ```
 
+Because the API runs inside Docker, paths in that env file must be container paths, not VPS host paths. The correct source paths are:
+
+```text
+FEED_SOURCE_PATH=/app/feed_module/xml_example/fk-inhome.com.ua.xml
+FEED_SUPPLEMENTAL_SOURCE_PATH=/app/feed_module/xml_example/fk-inhome.com.ua=2.xml
+```
+
 If you want to change the port or source feed paths later, edit:
 
 ```text
