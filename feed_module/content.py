@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 from logger import format_duration, get_logger
 from .shared import (
     ContentOverride,
+    SourceOffer,
     add_text_node,
     build_description_from_params,
     build_inferred_brand_lookup,
@@ -42,8 +43,9 @@ def generate_content_xml(
     The docs in instructions/prices.pdf require fields that are not present in the sample
     YML feed, most notably barcode and package dimensions. When `supplemental_source_path`
     is provided, product images are merged from that auxiliary feed by offer id, with a
-    vendor-code fallback for safety. Pass `overrides` keyed by source offer id for any
-    remaining partner-required fields.
+    vendor-code fallback for safety. Explicit supplemental barcodes are merged only by
+    matching `offer id`, so numeric article values are not treated as barcodes. Pass
+    `overrides` keyed by source offer id for any remaining partner-required fields.
     """
     started_at = perf_counter()
     LOGGER.info(
@@ -56,8 +58,8 @@ def generate_content_xml(
     overrides = overrides or {}
     offers = parse_source_yml(source_path)
     inferred_brands = build_inferred_brand_lookup(offers)
-    supplemental_by_id: dict[str, object] = {}
-    supplemental_by_vendor: dict[str, object] = {}
+    supplemental_by_id: dict[str, SourceOffer] = {}
+    supplemental_by_vendor: dict[str, SourceOffer] = {}
     if supplemental_source_path:
         supplemental_offers = parse_source_yml(supplemental_source_path)
         supplemental_by_id = {
@@ -81,7 +83,8 @@ def generate_content_xml(
 
         override = overrides.get(source_offer.offer_id, ContentOverride())
         offer_node = ET.SubElement(offers_node, "offer")
-        supplemental_offer = supplemental_by_id.get(source_offer.offer_id)
+        supplemental_offer_by_id = supplemental_by_id.get(source_offer.offer_id)
+        supplemental_offer = supplemental_offer_by_id
         if supplemental_offer is None and source_offer.vendor_code:
             supplemental_offer = supplemental_by_vendor.get(source_offer.vendor_code)
 
@@ -95,7 +98,15 @@ def generate_content_xml(
             or extract_brand(source_offer.description_html)
             or inferred_brands.get(source_offer.offer_id)
         )
-        barcode = override.barcode or source_offer.barcode
+        barcode = (
+            override.barcode
+            or source_offer.barcode
+            or (
+                supplemental_offer_by_id.barcode
+                if supplemental_offer_by_id is not None
+                else None
+            )
+        )
         category = override.category or source_offer.category_name
         category_id = override.category_id or source_offer.category_id
         title = normalize_title(source_offer.title)
