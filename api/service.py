@@ -85,12 +85,13 @@ class FeedHTTPServer(ThreadingHTTPServer):
     def build_propositions_feed(self) -> bytes:
         started_at = perf_counter()
         with self.feed_lock:
-            source_path, _ = self._refresh_source_files()
+            source_path, supplemental_path = self._refresh_source_files()
             output_path = self.output_dir / DEFAULT_PROPOSITIONS_NAME
             LOGGER.info(
-                "Building propositions feed output=%s source=%s",
+                "Building propositions feed output=%s source=%s supplemental=%s",
                 output_path,
                 source_path,
+                supplemental_path,
             )
             generate_propositions_xml(
                 source_path=source_path,
