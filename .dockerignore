@@ -1,0 +1,9 @@
+.git
+.github
+.idea
+.venv
+.venv312
+__pycache__
+*.pyc
+logs
+feed_module/generated
