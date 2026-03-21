@@ -8,7 +8,7 @@ This package exposes the generated feeds over two public HTTP endpoints:
 Run it from the project root:
 
 ```bash
-python3 -m api
+python3 main.py
 ```
 
 Default behavior:
@@ -23,7 +23,7 @@ Default behavior:
 Useful options:
 
 ```bash
-python3 -m api --host 0.0.0.0 --port 8000
-python3 -m api --source /path/to/source.xml --supplemental-source /path/to/extra.xml
-python3 -m api --log-level DEBUG
+python3 main.py --host 0.0.0.0 --port 8000
+python3 main.py --source /path/to/source.xml --supplemental-source /path/to/extra.xml
+python3 main.py --log-level DEBUG
 ```

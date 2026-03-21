@@ -6,6 +6,8 @@ SHARED_DIR="${SHARED_DIR:-$(dirname "$APP_DIR")/shared}"
 APP_ENV_FILE="${APP_ENV_FILE:-$SHARED_DIR/convert-api.env}"
 APP_LOGS_DIR="${APP_LOGS_DIR:-$SHARED_DIR/logs}"
 APP_GENERATED_DIR="${APP_GENERATED_DIR:-$SHARED_DIR/generated}"
+APP_UID="${APP_UID:-10001}"
+APP_GID="${APP_GID:-10001}"
 DOCKER_BIN="${DOCKER_BIN:-docker}"
 COMPOSE_FILE="${COMPOSE_FILE:-docker-compose.yml}"
 
@@ -16,6 +18,7 @@ fi
 
 cd "$APP_DIR"
 mkdir -p "$SHARED_DIR" "$APP_LOGS_DIR" "$APP_GENERATED_DIR"
+chown -R "$APP_UID:$APP_GID" "$APP_LOGS_DIR" "$APP_GENERATED_DIR"
 
 if [[ ! -f "$APP_ENV_FILE" ]]; then
   cp deploy/env/convert-api.env.example "$APP_ENV_FILE"
