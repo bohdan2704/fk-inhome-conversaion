@@ -1,0 +1,6 @@
+fk-inhome.space, www.fk-inhome.space {
+    @www host www.fk-inhome.space
+    redir @www https://fk-inhome.space{uri} 308
+
+    reverse_proxy convert-api:8000
+}

@@ -26,6 +26,15 @@ systemctl enable docker
 systemctl start docker
 ```
 
+Open the HTTP and HTTPS ports in the VPS firewall if they are blocked:
+
+```bash
+ufw allow 80/tcp
+ufw allow 443/tcp
+```
+
+If `ufw` is not installed, make the equivalent change in your VPS provider firewall panel.
+
 Create the app and shared directories:
 
 ```bash
@@ -49,7 +58,19 @@ Add these repository secrets:
 
 The matching public SSH key must be present in `/root/.ssh/authorized_keys` because `VPS_USER=root`.
 
-## 3. First deploy
+## 3. DNS for fk-inhome.space
+
+At your DNS provider, point the domain to the VPS:
+
+- `A` record for `fk-inhome.space` -> `194.31.52.91`
+- optional `CNAME` for `www` -> `fk-inhome.space`
+
+Important:
+
+- If you already have an `AAAA` record for `fk-inhome.space`, either point it to your VPS IPv6 or remove it for now.
+- Automatic HTTPS will not work correctly if the domain resolves somewhere else.
+
+## 4. First deploy
 
 After the first push to `main`, GitHub Actions will copy the repo into:
 
@@ -76,13 +97,20 @@ FEED_SOURCE_PATH=/app/feed_module/xml_example/fk-inhome.com.ua.xml
 FEED_SUPPLEMENTAL_SOURCE_PATH=/app/feed_module/xml_example/fk-inhome.com.ua=2.xml
 ```
 
+The Docker stack now includes Caddy for automatic HTTPS with:
+
+```text
+https://fk-inhome.space
+https://www.fk-inhome.space
+```
+
 If you want to change the port or source feed paths later, edit:
 
 ```text
 /srv/convert-api/shared/convert-api.env
 ```
 
-## 4. Verify on the VPS
+## 5. Verify on the VPS
 
 After GitHub Actions runs, check:
 
@@ -92,18 +120,40 @@ docker compose ps
 docker compose logs --tail=100
 ```
 
-The API should be reachable by IP:
+The API should be reachable by domain:
 
 ```text
-http://194.31.52.91:8000/api/content-feed.xml
-http://194.31.52.91:8000/api/propositions-feed.xml
+https://fk-inhome.space/api/content-feed.xml
+https://fk-inhome.space/api/propositions-feed.xml
 ```
 
-## 5. Optional public Nginx proxy
+You can still test the backend locally on the VPS:
 
-Use the sample file in `deploy/nginx/convert-api.conf.example` later when you add a domain and HTTPS.
+```bash
+curl http://127.0.0.1:8000/api/content-feed.xml | head
+curl http://127.0.0.1:8000/api/propositions-feed.xml | head
+```
 
-## 6. Deploy flow
+If the certificate is still being issued, watch:
+
+```bash
+docker compose logs -f caddy
+```
+
+## 6. Domain config in repo
+
+The active HTTPS routing file is:
+
+```text
+deploy/Caddyfile
+```
+
+It currently serves:
+
+- `fk-inhome.space`
+- `www.fk-inhome.space` -> redirected to `fk-inhome.space`
+
+## 7. Deploy flow
 
 After this setup, every push to `main` triggers:
 
