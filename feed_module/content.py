@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
+import re
 from time import perf_counter
 from typing import Mapping
 
@@ -27,6 +28,9 @@ from .shared import (
 
 
 LOGGER = get_logger(__name__)
+DESCRIPTION_LINEBREAK_RE = re.compile(r"\s*\n+\s*")
+DESCRIPTION_TAG_GAP_RE = re.compile(r">\s+<")
+DESCRIPTION_SPACE_RUN_RE = re.compile(r" {2,}")
 
 
 def generate_content_xml(
@@ -184,7 +188,8 @@ def generate_content_xml(
         )
         exported_offers += 1
 
-    write_json_pretty({"offers": offers_payload}, output_path)
+    payload = clean_generated_content_payload({"offers": offers_payload})
+    write_json_pretty(payload, output_path)
 
     if strict and missing_required:
         LOGGER.error(
@@ -222,4 +227,44 @@ def dedupe_images(*image_groups: list[str]) -> list[str]:
     return deduped
 
 
-__all__ = ["ContentOverride", "generate_content_xml"]
+def clean_generated_content_payload(payload: dict[str, object]) -> dict[str, object]:
+    offers = payload.get("offers")
+    if not isinstance(offers, list):
+        return payload
+
+    cleaned_payload = dict(payload)
+    cleaned_offers: list[object] = []
+    for offer in offers:
+        if not isinstance(offer, dict):
+            cleaned_offers.append(offer)
+            continue
+
+        cleaned_offer = dict(offer)
+        description = cleaned_offer.get("description")
+        if isinstance(description, str):
+            cleaned_offer["description"] = clean_generated_content_description(
+                description
+            )
+        cleaned_offers.append(cleaned_offer)
+
+    cleaned_payload["offers"] = cleaned_offers
+    return cleaned_payload
+
+
+def clean_generated_content_description(description: str) -> str:
+    cleaned = description.replace("\r\n", "\n").replace("\r", "\n")
+    cleaned = DESCRIPTION_TAG_GAP_RE.sub("><", cleaned)
+    cleaned = DESCRIPTION_LINEBREAK_RE.sub(" ", cleaned)
+    cleaned = re.sub(r">\s+([^<])", r">\1", cleaned)
+    cleaned = re.sub(r"([^>])\s+<", r"\1<", cleaned)
+    cleaned = DESCRIPTION_TAG_GAP_RE.sub("><", cleaned)
+    cleaned = DESCRIPTION_SPACE_RUN_RE.sub(" ", cleaned)
+    return cleaned.strip()
+
+
+__all__ = [
+    "ContentOverride",
+    "clean_generated_content_description",
+    "clean_generated_content_payload",
+    "generate_content_xml",
+]
