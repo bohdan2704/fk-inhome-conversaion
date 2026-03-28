@@ -162,6 +162,7 @@ def format_generated_propositions_payload(
             continue
         item["warranty_type"] = "merchant"
         item["warranty_period"] = 1
+        item["max_pay_in_parts"] = 0
         item["days_to_dispatch"] = 1
 
     return payload
