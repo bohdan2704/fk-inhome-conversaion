@@ -6,8 +6,8 @@
       "price": 680,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -36,8 +36,8 @@
       "price": 680,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -66,8 +66,8 @@
       "price": 680,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -96,8 +96,8 @@
       "price": 680,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -126,8 +126,8 @@
       "price": 680,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -156,8 +156,8 @@
       "price": 750,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -186,8 +186,8 @@
       "price": 680,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -216,8 +216,8 @@
       "price": 680,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -246,8 +246,8 @@
       "price": 1860,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -276,8 +276,8 @@
       "price": 1750,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -306,8 +306,8 @@
       "price": 1750,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -336,8 +336,8 @@
       "price": 180,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -366,8 +366,8 @@
       "price": 680,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -396,8 +396,8 @@
       "price": 370,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -426,8 +426,8 @@
       "price": 310,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -456,8 +456,8 @@
       "price": 450,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -486,8 +486,8 @@
       "price": 2100,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {
@@ -516,8 +516,8 @@
       "price": 1260,
       "old_price": null,
       "availability": true,
-      "warranty_type": "no",
-      "warranty_period": 0,
+      "warranty_type": "merchant",
+      "warranty_period": 1,
       "max_pay_in_parts": 3,
       "delivery_methods": [
         {

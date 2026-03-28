@@ -121,7 +121,10 @@ def generate_propositions_xml(
                 f"offer {source_offer.offer_id}: propositions.code is required"
             )
 
-    write_json_pretty({"total": total, "data": data_payload}, output_path)
+    formatted_payload = format_generated_propositions_payload(
+        {"total": total, "data": data_payload}
+    )
+    write_json_pretty(formatted_payload, output_path)
 
     if strict and missing_required:
         LOGGER.error(
@@ -146,4 +149,26 @@ def generate_propositions_xml(
     return Path(output_path)
 
 
-__all__ = ["PropositionOverride", "generate_propositions_xml"]
+def format_generated_propositions_payload(
+    payload: dict[str, object],
+) -> dict[str, object]:
+    """Apply repository-wide proposition defaults to the final JSON payload."""
+    data = payload.get("data")
+    if not isinstance(data, list):
+        return payload
+
+    for item in data:
+        if not isinstance(item, dict):
+            continue
+        item["warranty_type"] = "merchant"
+        item["warranty_period"] = 1
+        item["days_to_dispatch"] = 1
+
+    return payload
+
+
+__all__ = [
+    "PropositionOverride",
+    "format_generated_propositions_payload",
+    "generate_propositions_xml",
+]
