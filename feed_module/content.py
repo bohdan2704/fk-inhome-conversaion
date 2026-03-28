@@ -3,7 +3,6 @@ from __future__ import annotations
 from pathlib import Path
 from time import perf_counter
 from typing import Mapping
-import xml.etree.ElementTree as ET
 
 from logger import format_duration, get_logger
 from .shared import (
@@ -23,7 +22,7 @@ from .shared import (
     normalize_title,
     parse_source_yml,
     resolve_offer_barcode,
-    write_xml_with_cdata,
+    write_json_pretty,
 )
 
 
@@ -39,7 +38,7 @@ def generate_content_xml(
     strict: bool = False,
 ) -> Path:
     """
-    Generate the product-content XML from the source YML.
+    Generate the product-content feed as JSON from the source YML.
 
     The docs in instructions/prices.pdf require fields that are not present in the sample
     YML feed, most notably barcode and package dimensions. When `supplemental_source_path`
@@ -50,7 +49,7 @@ def generate_content_xml(
     """
     started_at = perf_counter()
     LOGGER.info(
-        "Generating content XML source=%s output=%s supplemental=%s strict=%s",
+        "Generating content JSON source=%s output=%s supplemental=%s strict=%s",
         source_path,
         output_path,
         supplemental_source_path,
@@ -72,8 +71,7 @@ def generate_content_xml(
             if offer.vendor_code and offer.images
         }
 
-    root = ET.Element("Market")
-    offers_node = ET.SubElement(root, "offers")
+    offers_payload: list[dict[str, object]] = []
     missing_required: list[str] = []
     exported_offers = 0
     offers_with_images = 0
@@ -108,7 +106,6 @@ def generate_content_xml(
             skipped_without_barcode += 1
             continue
 
-        offer_node = ET.SubElement(offers_node, "offer")
         category = override.category or source_offer.category_name
         category_id = override.category_id or source_offer.category_id
         title = normalize_title(source_offer.title)
@@ -141,36 +138,33 @@ def generate_content_xml(
         width_cm = override.width_cm or source_offer.width_cm
         length_cm = override.length_cm or source_offer.length_cm
 
-        add_text_node(offer_node, "id", source_offer.offer_id)
-        add_text_node(offer_node, "code", code)
-        add_text_node(offer_node, "vendor_code", vendor_code)
-        add_text_node(offer_node, "title", title)
-        add_text_node(offer_node, "barcode", barcode)
-        add_text_node(offer_node, "category", category)
-        add_text_node(offer_node, "category_id", category_id)
-        add_text_node(offer_node, "brand", brand)
-        add_text_node(offer_node, "availability", "Є в наявності")
-        add_text_node(offer_node, "weight", weight_kg)
-        add_text_node(offer_node, "height", height_cm)
-        add_text_node(offer_node, "width", width_cm)
-        add_text_node(offer_node, "length", length_cm)
-
-        if description_html:
-            description_node = ET.SubElement(offer_node, "description")
-            description_node.text = description_html
-
         if images:
             offers_with_images += 1
-            image_link_node = ET.SubElement(offer_node, "image_link")
-            for image_url in images:
-                add_text_node(image_link_node, "picture", image_url)
 
-        if tags:
-            tags_node = ET.SubElement(offer_node, "tags")
-            for name, value in tags:
-                if name and value:
-                    param_node = ET.SubElement(tags_node, "param", {"name": name})
-                    param_node.text = value
+        offers_payload.append(
+            {
+                "id": source_offer.offer_id,
+                "code": code,
+                "vendor_code": vendor_code,
+                "title": title,
+                "barcode": barcode,
+                "category": category,
+                "category_id": category_id,
+                "brand": brand,
+                "availability": "Є в наявності",
+                "weight": weight_kg,
+                "height": height_cm,
+                "width": width_cm,
+                "length": length_cm,
+                "description": description_html or None,
+                "image_link": images,
+                "tags": [
+                    {"name": name, "value": value}
+                    for name, value in tags
+                    if name and value
+                ],
+            }
+        )
 
         collect_missing_content_fields(
             missing_required,
@@ -190,11 +184,11 @@ def generate_content_xml(
         )
         exported_offers += 1
 
-    write_xml_with_cdata(root, output_path, cdata_tags={"description"})
+    write_json_pretty({"offers": offers_payload}, output_path)
 
     if strict and missing_required:
         LOGGER.error(
-            "Content XML validation failed output=%s missing_required=%s duration=%s",
+            "Content JSON validation failed output=%s missing_required=%s duration=%s",
             output_path,
             len(missing_required),
             format_duration(perf_counter() - started_at),
@@ -203,7 +197,7 @@ def generate_content_xml(
         raise ValueError(f"Missing partner-required content fields:\n{formatted}")
 
     LOGGER.info(
-        "Generated content XML output=%s offers=%s offers_with_images=%s skipped_without_barcode=%s missing_required=%s duration=%s",
+        "Generated content JSON output=%s offers=%s offers_with_images=%s skipped_without_barcode=%s missing_required=%s duration=%s",
         output_path,
         exported_offers,
         offers_with_images,

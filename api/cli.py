@@ -17,7 +17,7 @@ from source_downloader import DEFAULT_DOWNLOAD_TIMEOUT
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Serve the generated XML feeds over a public HTTP API.",
+        description="Serve the generated JSON feeds over a public HTTP API.",
     )
     parser.add_argument(
         "--host",
@@ -35,7 +35,7 @@ def build_parser() -> argparse.ArgumentParser:
         type=Path,
         default=DEFAULT_DOWNLOADED_SOURCE,
         help=(
-            "Path where the downloaded Rozetka XML feed is stored before generation. "
+            "Path where the downloaded Rozetka source feed is stored before generation. "
             f"Default: {DEFAULT_DOWNLOADED_SOURCE}"
         ),
     )
@@ -44,19 +44,19 @@ def build_parser() -> argparse.ArgumentParser:
         type=Path,
         default=DEFAULT_DOWNLOADED_SUPPLEMENTAL_SOURCE,
         help=(
-            "Path where the downloaded Prom XML feed is stored before generation. "
+            "Path where the downloaded Prom source feed is stored before generation. "
             f"Default: {DEFAULT_DOWNLOADED_SUPPLEMENTAL_SOURCE}"
         ),
     )
     parser.add_argument(
         "--source-url",
         default=os.environ.get("FEED_SOURCE_URL"),
-        help="Rozetka XML source URL. Environment: FEED_SOURCE_URL",
+        help="Rozetka source URL. Environment: FEED_SOURCE_URL",
     )
     parser.add_argument(
         "--supplemental-source-url",
         default=os.environ.get("FEED_SUPPLEMENTAL_SOURCE_URL"),
-        help="Prom XML source URL. Environment: FEED_SUPPLEMENTAL_SOURCE_URL",
+        help="Prom source URL. Environment: FEED_SUPPLEMENTAL_SOURCE_URL",
     )
     parser.add_argument(
         "--download-timeout",
@@ -64,13 +64,13 @@ def build_parser() -> argparse.ArgumentParser:
         default=int(
             os.environ.get("FEED_DOWNLOAD_TIMEOUT", str(DEFAULT_DOWNLOAD_TIMEOUT))
         ),
-        help=f"Timeout in seconds for source XML downloads. Default: {DEFAULT_DOWNLOAD_TIMEOUT}",
+        help=f"Timeout in seconds for source downloads. Default: {DEFAULT_DOWNLOAD_TIMEOUT}",
     )
     parser.add_argument(
         "--output-dir",
         type=Path,
         default=Path(os.environ.get("FEED_OUTPUT_DIR", DEFAULT_OUTPUT_DIR)),
-        help=f"Directory for generated XML files. Default: {DEFAULT_OUTPUT_DIR}",
+        help=f"Directory for generated JSON files. Default: {DEFAULT_OUTPUT_DIR}",
     )
     parser.add_argument(
         "--strict",

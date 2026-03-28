@@ -1,0 +1,545 @@
+{
+  "total": 18,
+  "data": [
+    {
+      "code": "10337554",
+      "price": 680,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "10337555",
+      "price": 680,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "10337556",
+      "price": 680,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "10337557",
+      "price": 680,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "10337558",
+      "price": 680,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "6749095",
+      "price": 750,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "6749096",
+      "price": 680,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "6749098",
+      "price": 680,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "6830177",
+      "price": 1860,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "6830182",
+      "price": 1750,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "6830187",
+      "price": 1750,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "7596494",
+      "price": 180,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "7596504",
+      "price": 680,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "7626631",
+      "price": 370,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "7626632",
+      "price": 310,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "7638466",
+      "price": 450,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "9179403",
+      "price": 2100,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    },
+    {
+      "code": "14743353",
+      "price": 1260,
+      "old_price": null,
+      "availability": true,
+      "warranty_type": "no",
+      "warranty_period": 0,
+      "max_pay_in_parts": 3,
+      "delivery_methods": [
+        {
+          "method": "nova-post:branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:cargo_branch",
+          "price": 0
+        },
+        {
+          "method": "nova-post:postomat",
+          "price": 0
+        },
+        {
+          "method": "courier:nova-post",
+          "price": 0
+        }
+      ],
+      "days_to_dispatch": 1,
+      "checkout_constraints": null,
+      "manufacture": null
+    }
+  ]
+}

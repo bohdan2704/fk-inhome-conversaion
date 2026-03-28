@@ -4,6 +4,7 @@ from collections import Counter
 from dataclasses import dataclass, field
 from html import escape, unescape
 from html.parser import HTMLParser
+import json
 from pathlib import Path
 from time import perf_counter
 from typing import Any, Iterable
@@ -622,6 +623,11 @@ def write_xml_with_cdata(
     Path(output_path).write_text(pretty_text + "\n", encoding="utf-8")
 
 
+def write_json_pretty(payload: Any, output_path: str | Path) -> None:
+    text = json.dumps(payload, ensure_ascii=False, indent=2)
+    Path(output_path).write_text(text + "\n", encoding="utf-8")
+
+
 def cleanup_description_html(html: str) -> str:
     html = re.sub(r"<p>\s*(?:&nbsp;|\s|<br>)*</p>", "", html, flags=re.IGNORECASE)
     html = re.sub(r"<li>\s*(?:&nbsp;|\s|<br>)*</li>", "", html, flags=re.IGNORECASE)
@@ -838,5 +844,6 @@ __all__ = [
     "resolve_offer_barcode",
     "stringify_bool",
     "stringify_number",
+    "write_json_pretty",
     "write_xml_with_cdata",
 ]

@@ -1,0 +1,5918 @@
+{
+  "total": 385,
+  "data": [
+    
+    {
+      "code": "722367809",
+      "price": 5555.000000,
+      "old_price": null,
+      "availability": false,
+      "warranty_type": "no",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "159478736",
+      "price": 0,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "816939383",
+      "price": 4971.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "816939382",
+      "price": 4971.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "816939385",
+      "price": 5090.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "207834796",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "207834407",
+      "price": 4971.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817836311",
+      "price": 7351.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "208072015",
+      "price": 7351.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817836309",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "208072012",
+      "price": 7351.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "251926068",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "251927051",
+      "price": 3956.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "811808319",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817845142",
+      "price": 9430.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "324032753",
+      "price": 9430.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817845143",
+      "price": 9430.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817845139",
+      "price": 9430.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "262511350",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "724093545",
+      "price": 4411.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "811790509",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "262518012",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "724092672",
+      "price": 4875.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "811789934",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "730500308",
+      "price": 5258.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "730500307",
+      "price": 5258.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "730500306",
+      "price": 5258.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "267199428",
+      "price": 5258.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "730500310",
+      "price": 5258.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "306355438",
+      "price": 5592.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "1046302337",
+      "price": 5592.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "1046302081",
+      "price": 5592.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "1046302593",
+      "price": 5592.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "1046302209",
+      "price": 5592.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "306432994",
+      "price": 5401.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "306433410",
+      "price": 5401.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422084144",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509169021",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422084121",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422765014",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422765015",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "317938265",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422765020",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "1046754689",
+      "price": 5735.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "317943899",
+      "price": 5735.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "1046754561",
+      "price": 5735.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "1046754817",
+      "price": 5735.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "1046754945",
+      "price": 5735.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "317946909",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422527568",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422527562",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422527571",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "320878012",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422094347",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "421401940",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "421401927",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422094334",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422717760",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "320926939",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422717943",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422717983",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422717817",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422717784",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "320900929",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422738912",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422738979",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422738954",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422738937",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422738924",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422750700",
+      "price": 7733.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422750701",
+      "price": 7733.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "320931309",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "793815012",
+      "price": 7733.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "323686553",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "553181161",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "816972237",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "816972539",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "323851480",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "515106478",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817196324",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817091566",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "418347029",
+      "price": 4077.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "323942074",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817125241",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817127589",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817136272",
+      "price": 5974.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "323947495",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817135305",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "432639671",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817132466",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "418348102",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "324019761",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817143717",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817144991",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "680194828",
+      "price": 6166.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "324024016",
+      "price": 6166.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "431758102",
+      "price": 6166.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "431758096",
+      "price": 6166.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "680194816",
+      "price": 6166.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "346057560",
+      "price": 5520.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "346057561",
+      "price": 5520.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "346057723",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "715721875",
+      "price": 5520.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "681988671",
+      "price": 4761.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "681988625",
+      "price": 4761.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "346058340",
+      "price": 4761.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "346058337",
+      "price": 4761.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "346058306",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "346794448",
+      "price": 8102.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "724169251",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "724169249",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "346794451",
+      "price": 8102.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "347255235",
+      "price": 4235.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "348534534",
+      "price": 4235.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "347255237",
+      "price": 4235.000000,
+      
+      "availability": false,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "347255240",
+      "price": 4235.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "348534577",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "348534613",
+      "price": 4235.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "347255239",
+      "price": 4235.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "347789558",
+      "price": 5143.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "347259883",
+      "price": 5143.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "347789741",
+      "price": 5143.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "347259890",
+      "price": 5143.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "347259884",
+      "price": 5143.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "347789626",
+      "price": 5143.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "392542936",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "392546628",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "392546700",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "392546714",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509494629",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "392550393",
+      "price": 7790.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "392550392",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "392550391",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "392550390",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "392565689",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "392565688",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "429392243",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "392565690",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "392565687",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "429392257",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "724094974",
+      "price": 5878.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "421077321",
+      "price": 5878.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "421086196",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "724094971",
+      "price": 5878.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "421086192",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "724094973",
+      "price": 5878.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "724094972",
+      "price": 5878.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "724181810",
+      "price": 5448.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "421086907",
+      "price": 5448.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "421086908",
+      "price": 5448.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "724181811",
+      "price": 5448.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "421086909",
+      "price": 5448.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "724181807",
+      "price": 5448.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "724181808",
+      "price": 5448.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "724181809",
+      "price": 5448.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "1047552129",
+      "price": 6070.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "421156180",
+      "price": 6070.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "1047779457",
+      "price": 6070.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "421156181",
+      "price": 6070.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "1047551873",
+      "price": 6070.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422726924",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422726925",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422726926",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422726928",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422726929",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422742540",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422742541",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422742549",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422742543",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422742544",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "422742546",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "430735889",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "430735896",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "430735895",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "430735893",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "431761115",
+      "price": 7480.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "431761114",
+      "price": 7480.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "680389439",
+      "price": 7480.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "431761113",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "764031202",
+      "price": 6739.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "436526081",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "436526079",
+      "price": 6739.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "698992799",
+      "price": 6739.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "764031201",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "773449546",
+      "price": 6739.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "436526080",
+      "price": 6739.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "446843704",
+      "price": 7409.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "707709289",
+      "price": 7409.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "707709337",
+      "price": 7409.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "707709261",
+      "price": 7409.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "454922795",
+      "price": 6907.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "764028790",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "454920371",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "454922807",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462927104",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462927109",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462927105",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462927108",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462927123",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462927127",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462927125",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462927128",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462962208",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462962207",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462962210",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462962205",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462962224",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462972966",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462962227",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462973007",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462962228",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "462962230",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509652638",
+      "price": 3025.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509652694",
+      "price": 3025.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509652657",
+      "price": 3025.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509652558",
+      "price": 3025.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509656613",
+      "price": 3208.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509656403",
+      "price": 3208.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "537297624",
+      "price": 3346.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "537297630",
+      "price": 3346.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "537297635",
+      "price": 3346.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509659348",
+      "price": 3346.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "537297641",
+      "price": 3346.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509663723",
+      "price": 3346.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509663608",
+      "price": 3465.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509663766",
+      "price": 3465.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "689054731",
+      "price": 3465.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509673067",
+      "price": 3656.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509673095",
+      "price": 3656.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509673074",
+      "price": 3656.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509672455",
+      "price": 3656.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509673110",
+      "price": 3656.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509673543",
+      "price": 3757.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "764583428",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509673544",
+      "price": 3757.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "686028870",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509673545",
+      "price": 3757.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "682003537",
+      "price": 4316.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "682003558",
+      "price": 4316.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509676256",
+      "price": 4316.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "599697100",
+      "price": 4316.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509676257",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509682412",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509682413",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509682414",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509682415",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509684651",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509684653",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509684654",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509684655",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509692989",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509692990",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "549884340",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509692992",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509697211",
+      "price": 4469.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509697215",
+      "price": 4469.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509697212",
+      "price": 4469.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509697209",
+      "price": 4469.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509697213",
+      "price": 4469.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509707180",
+      "price": 4062.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509707184",
+      "price": 4062.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509707178",
+      "price": 4062.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509707183",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509707181",
+      "price": 4062.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509721344",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509719684",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509719683",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509726858",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509726865",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509726861",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509733797",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509733842",
+      "price": 4698.000000,
+      
+      "availability": false,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509732435",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509735712",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509735709",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509735711",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509741856",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "773363680",
+      "price": 5711.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509741855",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509741857",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509956602",
+      "price": 4698.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509956603",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "591617280",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509971051",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509970933",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "542098966",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509956601",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509974930",
+      "price": 4971.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509974925",
+      "price": 4971.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509974927",
+      "price": 4971.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "773113478",
+      "price": 4971.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509974933",
+      "price": 4971.000000,
+      
+      "availability": false,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509974935",
+      "price": 4971.000000,
+      
+      "availability": false,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "542098532",
+      "price": 4971.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509984058",
+      "price": 5592.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509983872",
+      "price": 5592.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509983083",
+      "price": 5592.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509986725",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "773387365",
+      "price": 5592.000000,
+      
+      "availability": false,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509983082",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509983922",
+      "price": 5592.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509987612",
+      "price": 5831.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509987614",
+      "price": 5831.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509987610",
+      "price": 5831.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "509987611",
+      "price": 5831.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "511110644",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "511110646",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "511110645",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "511110649",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "546690522",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "546690519",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "516718217",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523475968",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523476391",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523475637",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523476511",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523477558",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523477561",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523477562",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523477564",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523479909",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "546166834",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "546166866",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523479914",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523794293",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523793257",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523794223",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523794351",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523795857",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "549856177",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523807748",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523807645",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523807777",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523808309",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523808310",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523808311",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "530379734",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523810578",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523810579",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523810580",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523811918",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "523811919",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "528602159",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "528602204",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "528602205",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "528602200",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "530391681",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "530391698",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "528602363",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "530391656",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "529245326",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "529245058",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "529245289",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "530391893",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "530391891",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "530391892",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "530391894",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "530393001",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "530392999",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "530393000",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "530393002",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "725034137",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "725034139",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "725036985",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "725036986",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "725039504",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "725039506",
+      "price": 4182.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "811790496",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817189263",
+      "price": 2509.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817189265",
+      "price": 2509.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "816848205",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817189266",
+      "price": 2509.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "817189260",
+      "price": 2509.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "323670470",
+      "price": 5143.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "553178528",
+      "price": 5143.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "529246339",
+      "price": ,
+      
+      "availability": false,
+      "warranty_type": "",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "529246434",
+      "price": 3704.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "529246441",
+      "price": 3704.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "421404841",
+      "price": 5592.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "208059963",
+      "price": 5831.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "355978955",
+      "price": 4971.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "347248213",
+      "price": 4971.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "355978970",
+      "price": 4971.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "421404816",
+      "price": 3346.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+    {
+      "code": "421404820",
+      "price": 3346.000000,
+      
+      "availability": true,
+      "warranty_type": "merchant",
+      "warranty_period": 6,
+      "max_pay_in_parts": 6,
+      "delivery_methods": [
+{"method": "nova-post:branch", "price": 0},
+{"method": "nova-post:cargo_branch", "price": 0},
+{"method": "courier:nova-post", "price": 0}
+],
+      "days_to_dispatch": 2
+    }
+    
+  ]
+}

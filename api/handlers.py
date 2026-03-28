@@ -71,14 +71,14 @@ class FeedRequestHandler(BaseHTTPRequestHandler):
             return self._handle_index(send_body=send_body)
         if path == CONTENT_ENDPOINT:
             return self._handle_feed(
-                content_type="application/xml; charset=utf-8",
+                content_type="application/json; charset=utf-8",
                 filename=DEFAULT_CONTENT_NAME,
                 payload_factory=self._api_server().build_content_feed,
                 send_body=send_body,
             )
         if path == PROPOSITIONS_ENDPOINT:
             return self._handle_feed(
-                content_type="application/xml; charset=utf-8",
+                content_type="application/json; charset=utf-8",
                 filename=DEFAULT_PROPOSITIONS_NAME,
                 payload_factory=self._api_server().build_propositions_feed,
                 send_body=send_body,

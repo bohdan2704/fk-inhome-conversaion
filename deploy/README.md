@@ -90,7 +90,7 @@ It is copied from:
 deploy/env/convert-api.env.example
 ```
 
-Before generating feeds, the API downloads the source XML files from the configured URLs and stores them as:
+Before generating feeds, the API downloads the source files from the configured URLs and stores them as:
 
 ```text
 /srv/convert-api/shared/downloaded/fk-inhome.com.ua.rozetka.YYYYMMDDTHHMMSSffffffZ.xml
@@ -128,7 +128,7 @@ docker compose ps
 docker compose logs --tail=100
 ```
 
-The API should be reachable by domain:
+The API should be reachable by domain and will return JSON payloads on these URLs:
 
 ```text
 https://fk-inhome.space/api/content-feed.xml

@@ -3,18 +3,14 @@ from __future__ import annotations
 from pathlib import Path
 from time import perf_counter
 from typing import Mapping
-import xml.etree.ElementTree as ET
 
 from logger import format_duration, get_logger
 from .shared import (
     PropositionOverride,
     SourceOffer,
-    add_text_node,
     parse_source_yml,
     resolve_offer_barcode,
-    stringify_bool,
-    stringify_number,
-    write_xml_with_cdata,
+    write_json_pretty,
 )
 
 
@@ -30,15 +26,14 @@ def generate_propositions_xml(
     strict: bool = False,
 ) -> Path:
     """
-    Generate the propositions feed as XML.
+    Generate the propositions feed as JSON.
 
-    The PDF in instructions/propositions.pdf describes these fields in JSON form, so this
-    function maps the same field names into XML:
-    <OffersFeed><total>...<data><offer>...</offer></data></OffersFeed>
+    The PDF in instructions/propositions.pdf documents a JSON structure with:
+    {"total": int, "data": [...]}
     """
     started_at = perf_counter()
     LOGGER.info(
-        "Generating propositions XML source=%s output=%s supplemental=%s strict=%s",
+        "Generating propositions JSON source=%s output=%s supplemental=%s strict=%s",
         source_path,
         output_path,
         supplemental_source_path,
@@ -53,8 +48,7 @@ def generate_propositions_xml(
             offer.offer_id: offer for offer in supplemental_offers if offer.offer_id
         }
     missing_required: list[str] = []
-    root = ET.Element("OffersFeed")
-    data_node = ET.SubElement(root, "data")
+    data_payload: list[dict[str, object]] = []
     total = 0
     offers_with_old_price = 0
     skipped_without_barcode = 0
@@ -80,61 +74,41 @@ def generate_propositions_xml(
             if override.availability is not None
             else source_offer.available
         )
-
-        offer_node = ET.SubElement(data_node, "offer")
-        add_text_node(offer_node, "code", code)
-        add_text_node(offer_node, "price", stringify_number(price))
-        add_text_node(offer_node, "old_price", stringify_number(old_price))
         if old_price is not None:
             offers_with_old_price += 1
-        add_text_node(offer_node, "availability", stringify_bool(availability))
-        add_text_node(offer_node, "warranty_type", override.warranty_type)
-        add_text_node(
-            offer_node,
-            "warranty_period",
-            stringify_number(override.warranty_period),
-        )
-        add_text_node(
-            offer_node,
-            "max_pay_in_parts",
-            stringify_number(override.max_pay_in_parts),
-        )
-        add_text_node(
-            offer_node,
-            "days_to_dispatch",
-            stringify_number(override.days_to_dispatch),
-        )
 
-        if override.delivery_methods:
-            delivery_methods_node = ET.SubElement(offer_node, "delivery_methods")
-            for delivery_method in override.delivery_methods:
-                method_node = ET.SubElement(delivery_methods_node, "delivery_method")
-                add_text_node(method_node, "method", delivery_method.get("method"))
-                add_text_node(
-                    method_node,
-                    "price",
-                    stringify_number(delivery_method.get("price")),
-                )
-
-        if override.multiplicity is not None:
-            checkout_constraints_node = ET.SubElement(
-                offer_node,
-                "checkout_constraints",
-            )
-            add_text_node(
-                checkout_constraints_node,
-                "multiplicity",
-                stringify_number(override.multiplicity),
-            )
-
-        if override.country_code or override.manufacture_year is not None:
-            manufacture_node = ET.SubElement(offer_node, "manufacture")
-            add_text_node(manufacture_node, "country_code", override.country_code)
-            add_text_node(
-                manufacture_node,
-                "year",
-                stringify_number(override.manufacture_year),
-            )
+        data_payload.append(
+            {
+                "code": code,
+                "price": price,
+                "old_price": old_price,
+                "availability": availability,
+                "warranty_type": override.warranty_type,
+                "warranty_period": override.warranty_period,
+                "max_pay_in_parts": override.max_pay_in_parts,
+                "delivery_methods": [
+                    {
+                        "method": delivery_method.get("method"),
+                        "price": delivery_method.get("price"),
+                    }
+                    for delivery_method in override.delivery_methods
+                ],
+                "days_to_dispatch": override.days_to_dispatch,
+                "checkout_constraints": (
+                    {"multiplicity": override.multiplicity}
+                    if override.multiplicity is not None
+                    else None
+                ),
+                "manufacture": (
+                    {
+                        "country_code": override.country_code,
+                        "year": override.manufacture_year,
+                    }
+                    if override.country_code or override.manufacture_year is not None
+                    else None
+                ),
+            }
+        )
 
         total += 1
 
@@ -147,14 +121,11 @@ def generate_propositions_xml(
                 f"offer {source_offer.offer_id}: propositions.code is required"
             )
 
-    total_node = ET.Element("total")
-    total_node.text = str(total)
-    root.insert(0, total_node)
-    write_xml_with_cdata(root, output_path, cdata_tags=set())
+    write_json_pretty({"total": total, "data": data_payload}, output_path)
 
     if strict and missing_required:
         LOGGER.error(
-            "Propositions XML validation failed output=%s missing_required=%s duration=%s",
+            "Propositions JSON validation failed output=%s missing_required=%s duration=%s",
             output_path,
             len(missing_required),
             format_duration(perf_counter() - started_at),
@@ -163,7 +134,7 @@ def generate_propositions_xml(
         raise ValueError(f"Missing partner-required proposition fields:\n{formatted}")
 
     LOGGER.info(
-        "Generated propositions XML output=%s offers=%s offers_with_old_price=%s skipped_without_barcode=%s missing_required=%s duration=%s",
+        "Generated propositions JSON output=%s offers=%s offers_with_old_price=%s skipped_without_barcode=%s missing_required=%s duration=%s",
         output_path,
         total,
         offers_with_old_price,
