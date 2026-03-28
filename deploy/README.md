@@ -128,12 +128,17 @@ docker compose ps
 docker compose logs --tail=100
 ```
 
-The API should be reachable by domain and will return JSON payloads on these URLs:
+The API should be reachable by domain on these URLs:
 
 ```text
 https://fk-inhome.space/api/content-feed.xml
 https://fk-inhome.space/api/propositions-feed.xml
 ```
+
+Current response formats:
+
+- `content-feed.xml`: XML
+- `propositions-feed.xml`: JSON
 
 You can still test the backend locally on the VPS:
 

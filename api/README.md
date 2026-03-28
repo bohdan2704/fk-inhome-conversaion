@@ -1,6 +1,6 @@
 # Feed API
 
-This package exposes the generated feeds as JSON over two public HTTP endpoints:
+This package exposes two public HTTP endpoints:
 
 - `GET /api/content-feed.xml`
 - `GET /api/propositions-feed.xml`
@@ -15,11 +15,16 @@ Default behavior:
 
 - binds to `0.0.0.0:8000`
 - allows all origins with permissive CORS headers
-- regenerates the JSON before each response
+- regenerates the feed before each response
 - downloads the Rozetka and Prom source feeds before generation when `FEED_SOURCE_URL` and `FEED_SUPPLEMENTAL_SOURCE_URL` are configured
 - stores the downloaded source files in `feed_module/downloaded/`
 - gives each downloaded source snapshot a UTC timestamp in its filename so older snapshots are kept
 - writes logs to `logs/convert-api-YYYY-MM-DD.log`
+
+Current response formats:
+
+- `/api/content-feed.xml` returns XML
+- `/api/propositions-feed.xml` returns JSON
 
 Useful options:
 

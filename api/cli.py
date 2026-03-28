@@ -17,7 +17,7 @@ from source_downloader import DEFAULT_DOWNLOAD_TIMEOUT
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Serve the generated JSON feeds over a public HTTP API.",
+        description="Serve the content XML feed and propositions JSON feed over a public HTTP API.",
     )
     parser.add_argument(
         "--host",
@@ -70,7 +70,7 @@ def build_parser() -> argparse.ArgumentParser:
         "--output-dir",
         type=Path,
         default=Path(os.environ.get("FEED_OUTPUT_DIR", DEFAULT_OUTPUT_DIR)),
-        help=f"Directory for generated JSON files. Default: {DEFAULT_OUTPUT_DIR}",
+        help=f"Directory for generated feed files. Default: {DEFAULT_OUTPUT_DIR}",
     )
     parser.add_argument(
         "--strict",

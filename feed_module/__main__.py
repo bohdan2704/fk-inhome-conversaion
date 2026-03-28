@@ -22,7 +22,7 @@ LOGGER = get_logger(__name__)
 
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
-        description="Generate both JSON feeds from a source YML feed."
+        description="Generate the content XML feed and propositions JSON feed from a source YML feed."
     )
     parser.add_argument(
         "--source",
@@ -34,12 +34,12 @@ def build_parser() -> argparse.ArgumentParser:
         "--output-dir",
         type=Path,
         default=DEFAULT_OUTPUT_DIR,
-        help=f"Directory for generated JSON files. Default: {DEFAULT_OUTPUT_DIR}",
+        help=f"Directory for generated feed files. Default: {DEFAULT_OUTPUT_DIR}",
     )
     parser.add_argument(
         "--content-name",
         default=DEFAULT_CONTENT_NAME,
-        help=f"Filename for the content JSON feed. Default: {DEFAULT_CONTENT_NAME}",
+        help=f"Filename for the content XML feed. Default: {DEFAULT_CONTENT_NAME}",
     )
     parser.add_argument(
         "--propositions-name",

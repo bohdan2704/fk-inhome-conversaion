@@ -4,6 +4,7 @@ from pathlib import Path
 import re
 from time import perf_counter
 from typing import Mapping
+import xml.etree.ElementTree as ET
 
 from logger import format_duration, get_logger
 from .shared import (
@@ -23,7 +24,7 @@ from .shared import (
     normalize_title,
     parse_source_yml,
     resolve_offer_barcode,
-    write_json_pretty,
+    write_xml_with_cdata,
 )
 
 
@@ -42,7 +43,7 @@ def generate_content_xml(
     strict: bool = False,
 ) -> Path:
     """
-    Generate the product-content feed as JSON from the source YML.
+    Generate the product-content feed as XML from the source YML.
 
     The docs in instructions/prices.pdf require fields that are not present in the sample
     YML feed, most notably barcode and package dimensions. When `supplemental_source_path`
@@ -53,7 +54,7 @@ def generate_content_xml(
     """
     started_at = perf_counter()
     LOGGER.info(
-        "Generating content JSON source=%s output=%s supplemental=%s strict=%s",
+        "Generating content XML source=%s output=%s supplemental=%s strict=%s",
         source_path,
         output_path,
         supplemental_source_path,
@@ -189,11 +190,11 @@ def generate_content_xml(
         exported_offers += 1
 
     payload = clean_generated_content_payload({"offers": offers_payload})
-    write_json_pretty(payload, output_path)
+    write_content_xml(payload["offers"], output_path)
 
     if strict and missing_required:
         LOGGER.error(
-            "Content JSON validation failed output=%s missing_required=%s duration=%s",
+            "Content XML validation failed output=%s missing_required=%s duration=%s",
             output_path,
             len(missing_required),
             format_duration(perf_counter() - started_at),
@@ -202,7 +203,7 @@ def generate_content_xml(
         raise ValueError(f"Missing partner-required content fields:\n{formatted}")
 
     LOGGER.info(
-        "Generated content JSON output=%s offers=%s offers_with_images=%s skipped_without_barcode=%s missing_required=%s duration=%s",
+        "Generated content XML output=%s offers=%s offers_with_images=%s skipped_without_barcode=%s missing_required=%s duration=%s",
         output_path,
         exported_offers,
         offers_with_images,
@@ -260,6 +261,75 @@ def clean_generated_content_description(description: str) -> str:
     cleaned = DESCRIPTION_TAG_GAP_RE.sub("><", cleaned)
     cleaned = DESCRIPTION_SPACE_RUN_RE.sub(" ", cleaned)
     return cleaned.strip()
+
+
+def write_content_xml(offers: list[object], output_path: str | Path) -> None:
+    root = ET.Element("Market")
+    offers_node = ET.SubElement(root, "offers")
+
+    for offer in offers:
+        if not isinstance(offer, dict):
+            continue
+
+        offer_node = ET.SubElement(offers_node, "offer")
+        add_text_node(offer_node, "id", _string_or_none(offer.get("id")))
+        add_text_node(offer_node, "code", _string_or_none(offer.get("code")))
+        add_text_node(
+            offer_node,
+            "vendor_code",
+            _string_or_none(offer.get("vendor_code")),
+        )
+        add_text_node(offer_node, "title", _string_or_none(offer.get("title")))
+        add_text_node(offer_node, "barcode", _string_or_none(offer.get("barcode")))
+        add_text_node(offer_node, "category", _string_or_none(offer.get("category")))
+        add_text_node(
+            offer_node,
+            "category_id",
+            _string_or_none(offer.get("category_id")),
+        )
+        add_text_node(offer_node, "brand", _string_or_none(offer.get("brand")))
+        add_text_node(
+            offer_node,
+            "availability",
+            _string_or_none(offer.get("availability")),
+        )
+        add_text_node(offer_node, "weight", _string_or_none(offer.get("weight")))
+        add_text_node(offer_node, "height", _string_or_none(offer.get("height")))
+        add_text_node(offer_node, "width", _string_or_none(offer.get("width")))
+        add_text_node(offer_node, "length", _string_or_none(offer.get("length")))
+
+        description = _string_or_none(offer.get("description"))
+        if description:
+            description_node = ET.SubElement(offer_node, "description")
+            description_node.text = description
+
+        images = offer.get("image_link")
+        if isinstance(images, list) and images:
+            image_link_node = ET.SubElement(offer_node, "image_link")
+            for image in images:
+                add_text_node(image_link_node, "picture", _string_or_none(image))
+
+        tags = offer.get("tags")
+        if isinstance(tags, list) and tags:
+            tags_node = ET.SubElement(offer_node, "tags")
+            for tag in tags:
+                if not isinstance(tag, dict):
+                    continue
+                name = _string_or_none(tag.get("name"))
+                value = _string_or_none(tag.get("value"))
+                if not name or not value:
+                    continue
+                param_node = ET.SubElement(tags_node, "param", {"name": name})
+                param_node.text = value
+
+    write_xml_with_cdata(root, output_path, cdata_tags={"description"})
+
+
+def _string_or_none(value: object) -> str | None:
+    if value is None:
+        return None
+    text = str(value)
+    return text if text else None
 
 
 __all__ = [
